@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input id="input-city" type="text" placeholder="Digite o nome da cidade...">
+        <button id="btn">
+            <img src="https://www.svgrepo.com/show/488200/find.svg" alt="bucars">
+        </button>
+        <div class="box">
+            <h2 id="city-location">Tempo em São Paulo</h2>
+            <div class="grausC">
+                <p id="Maxgraus">Max: 21°C</p>
+                <p id="Mingraus">Min: 21°C</p>
+            </div>
+        </div>
+        <div class="tempo">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="tempo" id="image-temp">
+            
+            <p id="temp">Nublado</p>
+        </div>
+        <p id="umidade">Umidade: 76%</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
