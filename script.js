@@ -24,6 +24,8 @@ async function searchCity(city){ //Async----funçao assincrona//
 function clickBtn(){
     //pegando valor input do html//
     const city = document.querySelector("#input-city").value;
+    
 
     searchCity(city)
+   
 }
