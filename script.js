@@ -1,6 +1,6 @@
 const search = document.getElementById('btn')
 
-const key = "f23a5b4b33ffc27cfd5de780fce37d7a" //chave API
+const key = "f23a5b4b33ffc27cfd5de780fce37d7a" //chave da API
 
 search.addEventListener('click', clickBtn); 
 
