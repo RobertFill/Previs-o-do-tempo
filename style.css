@@ -17,11 +17,12 @@ body {
     background: url(https://images.unsplash.com/photo-1614597396930-cd6760b99f7c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4NjU4MDAwMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
     background-repeat: no-repeat;
     object-fit: cover;
+
 }
 
 .container {
 
-    width: 95%;
+    width: 88%;
     max-width: 450px;
     padding: 23px;
     border-radius: 35px;
@@ -43,6 +44,8 @@ input {
     outline: none;
     background-color: #7c7c7c2b;
     color: aliceblue;
+
+    text-transform: capitalize;
 
 }
 
@@ -103,6 +106,16 @@ gap: 50px;
 #umidade{
  text-align: center;
  font-weight: 300;
+}
+@media (max-width:430px){
+    input::placeholder{
+        font-size: 13px;
+    }
+}
+@media (max-width:380px){
+    input::placeholder{
+        font-size: 9px;
+    }
 }
 @media (max-width:1920px) {
     html,body{
